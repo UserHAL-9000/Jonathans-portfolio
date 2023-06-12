@@ -54,7 +54,7 @@ export default function Home() {
             <AiFillGithub />
           </div>
           <div className="relative mx-auto bg-gradient-to-b from-blue-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96">
-            <Image src={deved} priority={false} layout="fill" objectFit="cover" />
+            <Image src={deved} layout="fill" objectFit="cover" />
           </div>
         </section>
 
@@ -151,58 +151,6 @@ export default function Home() {
             </div>
             <div className="basis-1/3 flex-1">
               <div><Image src={web6} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive" />
-              </div>
-            </div>
-          </div>
-          <div className="lg:flex gap-10">
-            <div className="w-full md:w-96 md:max-w-full mx-auto">
-              <div className="p-6 border border-gray-300 sm:rounded-md">
-                <form>
-                  <label className="block mb-6">
-                    <span className="text-gray-700">Your name</span>
-                    <input
-                      type="text"
-                      name="name"
-                      className="block w-full mt-1 border-gray-300 rounded-md shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
-                      placeholder=""
-                    />
-                  </label>
-                  <label className="block mb-6">
-                    <span className="text-gray-700">Email address</span>
-                    <input
-                      name="email"
-                      type="email"
-                      className="block w-full mt-1 border-gray-300 rounded-md shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
-                      placeholder=""
-                      required
-                    />
-                  </label>
-                  <label className="block mb-6">
-                    <span className="text-gray-700">Message</span>
-                    <textarea
-                      name="message"
-                      className="block w-full mt-1 border-gray-300 rounded-md shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
-                      rows="3"
-                      placeholder=""
-                    ></textarea>
-                  </label>
-                  <div className="mb-6">
-                    <button
-                      type="submit"
-                      className="h-10 px-5 text-indigo-100 bg-indigo-700 rounded-lg transition-colors duration-150 focus:shadow-outline hover:bg-indigo-800"
-                    >
-                      Contact Us
-                    </button>
-                  </div>
-                  <div>
-                    <div className="mt-2 text-gray-700 text-right text-xs">
-
-                      <a href="#" className="hover:underline" target="_blank"
-                      ></a
-                      >
-                    </div>
-                  </div>
-                </form>
               </div>
             </div>
           </div>
